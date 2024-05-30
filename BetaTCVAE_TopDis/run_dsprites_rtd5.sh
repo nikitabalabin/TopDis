@@ -1,0 +1,1 @@
+vae_quant.py --dataset shapes --beta 6 --tcvae --conv_dsprites --log_freq 1000 --batch-size 64 --num-epochs 100 --save dsprites_rtd5 --use_rtd --lp 1 --q_normalize --gamma_rtd 5 --sample_based --weightnorm_sampler --delay_iter 1e5
